@@ -39,16 +39,11 @@ Cập nhật một Webhook
 | Chức năng | Method |
 | ------------- |:-------------:|
 | address | { "address" : "http://apple.com/uninstall" } Địa chỉ URI mà Webhook sẽ gửi một POST Request đến khi có Event xảy ra. |
-| created_on | { "created_on" : "2012-09-28T11:50:07-04:00" } 
-Thời gian Webhook được tạo. API trả về kết quả theo định dạng chuẩn ISO 8601. |
+| created_on | { "created_on" : "2012-09-28T11:50:07-04:00" } Thời gian Webhook được tạo. API trả về kết quả theo định dạng chuẩn ISO 8601. |
 | format | { "format" : "json" } | Định dạng kiểu dữ liệu mà Webhook trả về. Các giá trị hợp lệ là json và xml. |
-| id | { "id" : 901431826 }
-Số duy nhất định danh Webhook. |
-| topic | { "topic" : "app/uninstalled" }
-Event mà khi xảy ra sẽ thực hiện lời gọi Webhook. Các giá trị hợp lệ là: products/create, products/delete, products/update, orders/create, orders/update, orders/cancelled, orders/delete, orders/active, orders/finalized, orders/invoiced, orders/partial_invoiced, orders/fulfilled, orders/partial_fulfilled, orders/paid, orders/partial_paid, customers/create, customers/update, customers/delete, suppliers/create, suppliers/update, suppliers/delete, order_returns/create, order_returns/update, order_returns/cancelled, order_returns/returned, order_returns/partial_refund, order_returns/refund, inventories/update |
-
-| modified_on | { "modified_on" : "2012-09-28T11:50:07-04:00" }
-Thời gian Webhook được cập nhật. API trả về kết quả theo định dạng chuẩn ISO 8601. |
+| id | { "id" : 901431826 } Số duy nhất định danh Webhook. |
+| topic | { "topic" : "app/uninstalled" } Event mà khi xảy ra sẽ thực hiện lời gọi Webhook. Các giá trị hợp lệ là: products/create, products/delete, products/update, orders/create, orders/update, orders/cancelled, orders/delete, orders/active, orders/finalized, orders/invoiced, orders/partial_invoiced, orders/fulfilled, orders/partial_fulfilled, orders/paid, orders/partial_paid, customers/create, customers/update, customers/delete, suppliers/create, suppliers/update, suppliers/delete, order_returns/create, order_returns/update, order_returns/cancelled, order_returns/returned, order_returns/partial_refund, order_returns/refund, inventories/update |
+| modified_on | { "modified_on" : "2012-09-28T11:50:07-04:00" } Thời gian Webhook được cập nhật. API trả về kết quả theo định dạng chuẩn ISO 8601. |
 
 # Đơn hàng
 ## Đăng đơn hàng
