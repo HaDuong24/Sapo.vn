@@ -1,3 +1,10 @@
+# Giới thiệu
+> Viết ứng dụng cùng Sapo
+Bạn là nhà phát triển đang có nhu cầu viết ứng dụng cho Sapo?
+Sapo API cho phép thiết lập phần lớn tính năng từ các ứng dụng của bạn trên nền tảng CMS. Web app hoặc các phần mềm từ bên thứ 3 tương thích với nền tảng của Sapo. 
+Sapo Embedded App SDK sẽ giúp bạn tạo ra những sản phẩm gần gũi với khách hàng hơn khi được trở thành những Admin của chính ứng dụng của mình.
+Bạn có thể dễ dàng bắt đầu với Sapo API. Sapo đem đến cho bạn những hướng dẫn chi tiết để bắt đầu xây dựng ứng dụng, cùng với đó là những lưu ý cần nhớ khi bạn gặp các vấn đề khó khăn, cùng với đó là API Reference để tìm hiểu chính xác những gì bạn có thể thực hiện với API.
+
 # Cấu hình chung
 ## Môi trường
 * URL môi trường thật, production: https://www.sapo.vn/
@@ -15,7 +22,7 @@ Kết quả trả về sẽ có 3 định dạng:
 Một Webhook là một công cụ để truy vấn và lưu trữ dữ liệu của một Event xác định. Bạn có thể đăng ký đường dẫn http:// hoặc https:// - nơi mà dữ liệu của Event được lưu trữ dưới dạng XML hoặc JSON. Webhook có thể được đăng ký cho các Event sau
 
 | Chức năng| Method |
-| ------------- |:-------------:|
+| ------------- |:-------------|
 | App	| installed |
 | Product |	create/update/delete |
 | Order |	create/update/cancelled/delete/active/finalized/invoiced/partial_invoiced/fulfilled/partial_fulfilled/paid/partial_paid |
@@ -25,7 +32,6 @@ Một Webhook là một công cụ để truy vấn và lưu trữ dữ liệu c
 | Inventory |	update |
 ### Bạn có thể làm gì với Webhook?
 Sapo API cho phép bạn thực hiện các thao tác sau với tài nguyên Product. Các phiên bản chi tiết hơn của những thao tác này có thể có
-
 [GET /admin/webhooks.json]
 Lấy danh sách tất cả các Webhook
 [GET /admin/webhooks/#{id}.json]
@@ -52,8 +58,5 @@ Cập nhật một Webhook
 ### Các tham số 
 | Tham số| Bắt buộc | Mô tả |
 | ------------- |:-------------:| -----:|
-| Order | yes | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
 
 
