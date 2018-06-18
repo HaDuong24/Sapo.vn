@@ -5,6 +5,7 @@ Sapo API cho phép thiết lập phần lớn tính năng từ các ứng dụng
 Sapo Embedded App SDK sẽ giúp bạn tạo ra những sản phẩm gần gũi với khách hàng hơn khi được trở thành những Admin của chính ứng dụng của mình.
 Bạn có thể dễ dàng bắt đầu với Sapo API. Sapo đem đến cho bạn những hướng dẫn chi tiết để bắt đầu xây dựng ứng dụng, cùng với đó là những lưu ý cần nhớ khi bạn gặp các vấn đề khó khăn, cùng với đó là API Reference để tìm hiểu chính xác những gì bạn có thể thực hiện với API.
 
+
 # Cấu hình chung
 ## Môi trường
 * URL môi trường thật, production: https://www.sapo.vn/
@@ -30,8 +31,9 @@ Một Webhook là một công cụ để truy vấn và lưu trữ dữ liệu c
 | Customer | create/delete/update |
 | Order Return | create/update/cancelled/returned/partial_refund/refund |
 | Inventory |	update |
-### Bạn có thể làm gì với Webhook?
+### Bạn có thể làm gì với Webhooks?
 Sapo API cho phép bạn thực hiện các thao tác sau với tài nguyên Product. Các phiên bản chi tiết hơn của những thao tác này có thể có
+
 [GET /admin/webhooks.json]
 Lấy danh sách tất cả các Webhook
 [GET /admin/webhooks/#{id}.json]
@@ -41,7 +43,7 @@ Tạo mới một Webhook
 [PUT /admin/webhooks/#{id}.json]
 Cập nhật một Webhook
 
-### Các thuộc tính của Webhook
+### Các thuộc tính của Webhooks
 |  |  |
 | ------------- |:-------------|
 | address | { "address" : "http://whatever.hostname.com/" } . Địa chỉ URI mà Webhook sẽ gửi một POST Request đến khi có Event xảy ra. |
@@ -58,5 +60,6 @@ Cập nhật một Webhook
 ### Các tham số 
 | Tham số| Bắt buộc | Mô tả |
 | ------------- |:-------------:| -----:|
+
 
 
