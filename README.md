@@ -54,12 +54,7 @@ Cập nhật một Webhook
 | modified_on | { "modified_on" : "2012-09-28T11:50:07-04:00" } . Thời gian Webhook được cập nhật. API trả về kết quả theo định dạng chuẩn ISO 8601. |
 
 
-# Đơn hàng
-## Đơn hàng mới
-Đối tác gửi danh sách đơn hàng sang hệ thống của Sapo thông qua APIs. Sau khi các đơn hàng được lưu thành công vào hệ thống của Sapo, hệ thống sẽ trả về danh sách đơn hàng tương ứng chứa các thông tin liên quan của mỗi đơn hàng.
-### Các tham số 
-| Tham số| Bắt buộc | Mô tả |
-| ------------- |:-------------:| -----:|
+
 
 
 
